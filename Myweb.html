@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MY Website</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+	<style>
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #A0522D;
+    clear: left;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#logo{
+padding-right: 400px;
+float: right;}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+}
+
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 70%;
+
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+	  #button{
+		height: 30%;
+	  
+	  }
+	  
+    </style>
+  </head>
+  <body>
+	<body background="Golf-Shirt-Grey-Seamless-Pattern-For-Website-Background.jpg">
+	<header>
+   <h1>Home Page</h1>
+</header>
+<ul id ="manu">
+  <li><a href="Myweb.html">Home</a></li>
+  <li><a href="About Me.html">About Me</a></li>
+  <li><a href="About Us.html"class="active">Projects</a></li>
+</ul>
+
+<img id="logo" src="download.png" alt="my picture" align="center">
+<h3>Abdilgani Abdallah</h3>
+<p id=des> A computer Science graduate with excellent IT skills. A hardworking, capable individual, with good attention to details. Adaptable to new situations, eager to learn new skills and enjoy new challenges, together with excellent time keeping, organisational skills and excellent customer support, that enables successful completion of targets and goals. Seeking an opportunity to start my career in the IT sector and work his way up within an organisation.   </p>
+
+<h3> Hobbies </h3>
+<ol>
+  <li>Cinema and Movies</li><br>
+  <li>Watching and playing Football</li><br>
+  <li>Reading about the archeological discovrees and history</li><br>
+  <li>Learning The new technolagies </li><br>
+</ol>
+<br>
+
+	<button onclick="initialize()">Refresh Page</button>
+  </body>
+  <footer>Profile Website</footer>
+</html>
