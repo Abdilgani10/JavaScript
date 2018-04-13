@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>incerement age when button is clicked</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+	
+  </head>
+  <body>
+	<body background="LoginCompositeBackground.png">
+	
+	<p>Your age is <span id="displayCount">0</span> times.</p>
+
+	<input type="button" value="Count" id="countButton" />
+	
+	<form name="myform" action="" method="get">
+
+
+    <!-- <input type="text" name="inputbox" value=""> -->
+    <!-- <input type="button" name="button" value="click" onclick="showData(this.form)"> -->
+	
+	<p id="demo2"></p>
+	
+<script type="text/javascript">
+      var count = 20;
+      var button = document.getElementById("countButton");
+      var display = document.getElementById("displayCount");
+
+      button.onclick = function(){
+        count++;
+        display.innerHTML = count;
+      }
+	  
+	  var person={
+
+	name: "Mason",
+	Age: 25,
+	Occupation: Scientist
+	};
+	
+document.getElementById("demo2").innerHTML =
+person.name + " is " + person.age + " years old." + "works as" + person.Occupation;
+</script>
+    
+    
+	
+  </body>
+  <footer></footer>
+</html>

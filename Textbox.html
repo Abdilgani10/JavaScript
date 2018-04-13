@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Application Form</h2>
+<h1> Enter Your Details <h1>
+
+First name:<br>
+<input id = input1 type="text" name="firstname">
+<br>
+Age:<br>
+<input id = input2 type="text" age="Age">
+<br>
+Occupation:<br>
+<input id = input3 type="text" job="Occupation">
+<br><br>
+<input id  = "Submit" onclick = "store()" type="submit" value ="sub">
+</form>
+
+<script>
+var personobject ={
+
+	Name: "Mason",
+	Age: 25,
+	Occupation: "Scientist"
+	};
+
+window.alert("name: " + personobject.Name + " is " + personobject.Age + " years old." + "works as" + personobject.Occupation);
+
+function store() {
+personobject.Name = document.getElementById("input1").value;
+personobject.Age = document.getElementById("input2").value; 
+personobject.Occupation = document.getElementById("input3").value;  
+
+alert("name: " + personobject.Name + " is " + personobject.Age + " years old." + "works as" + personobject.Occupation);
+
+}
+
+
+ </script>
+
+</body>
+</html>

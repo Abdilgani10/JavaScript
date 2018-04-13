@@ -7,10 +7,13 @@
 	
   </head>
   <body>
-	<body background="LoginCompositeBackground.png">
 	
 	<p id="demo"></p>
 	
+	<!-- <button onclick="person()">Run the person details</button> -->
+	
+	<!-- <button onclick="add()">add three numbers </button> -->
+	<!-- <p id="demo2"></p> -->
 <script>
 
 var name = "Abdilgani Abdallah";
@@ -19,10 +22,30 @@ var response = "That is correct";
 
 document.getElementById("demo").innerHTML = name + "<br>" + response;
 
-var price1 = 10;
-var price2 = 20;
+var item1 = 10;
+var item2 = 20;
 
-answer = priceq + price2;
+answer = item1 + item2;
+
+function square(a) {
+  return a * a;
+}
+
+console.log(square(3));
+
+function add(x, y, z) {
+    return x + y + z;
+	}
+console.log(add(5, 5, 5));
+
+
+	var text = "Good Afternoon";
+	var text1 = text.toUpperCase();
+	
+	var str1 = "Good";
+	var str2 = "Afternoon";
+	var join = str1.concat(str2);
+	
 
 </script>
     
